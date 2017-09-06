@@ -1,4 +1,4 @@
-# css_note
+# CSS Note
 Some note that I think it's important about CSS
 
 ## Ways to override Style
