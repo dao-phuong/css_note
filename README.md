@@ -69,9 +69,6 @@ Some note that I think it's important about CSS
     <h3 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h3>
 ```
 
-## Centering CSS
-https://css-tricks.com/centering-css-complete-guide/
-
 ## CSS attribute notes
 - Overflow only works on block level elements.
 - Vertical align only works for inline,inline-blocks,images,and table elements.
