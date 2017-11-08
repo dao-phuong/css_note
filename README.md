@@ -75,12 +75,12 @@ Some note that I think it's important about CSS
 
 ## Design Guidelines
 
-### Structure layout first
-### Use more padding
-### Use more line height on body than headings
-### Do not use pure black
-### Use fewer fonts, or be consistent with fonts
-### Use fewer colors, or complimentary colors
-### Be consistent with borders and corners
-### Fine details, transitions and animations last
-### Don’t go overboard with drop shadows, gradients, or animations
+1. Structure layout first
+2. Use more padding
+3. Use more line height on body than headings
+4. Do not use pure black
+5. Use fewer fonts, or be consistent with fonts
+6. Use fewer colors, or complimentary colors
+7. Be consistent with borders and corners
+8. Fine details, transitions and animations last
+9. Don’t go overboard with drop shadows, gradients, or animations
