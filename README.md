@@ -72,3 +72,15 @@ Some note that I think it's important about CSS
 ## CSS attribute notes
 - Overflow only works on block level elements.
 - Vertical align only works for inline,inline-blocks,images,and table elements.
+
+## Design Guidelines
+
+### Structure layout first
+### Use more padding
+### Use more line height on body than headings
+### Do not use pure black
+### Use fewer fonts, or be consistent with fonts
+### Use fewer colors, or complimentary colors
+### Be consistent with borders and corners
+### Fine details, transitions and animations last
+### Don’t go overboard with drop shadows, gradients, or animations
