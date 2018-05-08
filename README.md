@@ -84,3 +84,59 @@ Some note that I think it's important about CSS
 7. Be consistent with borders and corners
 8. Fine details, transitions and animations last
 9. Don’t go overboard with drop shadows, gradients, or animations
+
+## EM and REM unit
+### EM unit is parent-child relationship unit
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        …
+        <style>
+.wrapper { font-size: 20px; }
+.a { font-size: 1.5em; }
+.b { font-size: 2.0em; }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <span class="a">hello from inside .a</span>
+            <span class="b">hello from inside .b</span>
+        </div>
+    </body>
+</html>
+```
+The result we have is: .a is 30px an .b is 40px
+
+### REM unit is root-child relationship unit
+```
+   html <- root
+   /  \
+head  body
+ /      \
+…        …
+```
+Let's see example below
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        …
+        <style>
+:root {
+  font-size: 15px;
+}
+.wrapper { font-size: 20px; }
+.a { font-size: 1.5rem; }
+.b { font-size: 2.0rem; }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <span class="a">hello from inside .a</span>
+            <span class="b">hello from inside .b</span>
+        </div>
+    </body>
+</html>
+```
+So, the result we have will be: .a is 22.5px and .b is 30px
