@@ -144,9 +144,17 @@ So, the result we have will be: .a is 22.5px and .b is 30px
 ## Flexbox
 
 ### justify-content: Align items horozontally
-justify-content accept following values:
+Accept following values:
 - flex-start: items align to left side of container
 - flex-end: items align to right side of container
 - center: items align at the center of container
 - space-between: Items display with equal spacing between them.
 - space-around: Items display with equal spacing around them.
+
+### align-items: Align items vertically
+Accept following values:
+- flex-start: Items align to the top of the container.
+- flex-end: Items align to the bottom of the container.
+- center: Items align at the vertical center of the container.
+- baseline: Items display at the baseline of the container.
+- stretch: Items are stretched to fit the container.
