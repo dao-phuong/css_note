@@ -143,7 +143,9 @@ So, the result we have will be: .a is 22.5px and .b is 30px
 
 ## Flexbox
 
-### justify-content: Align items horozontally (when flex-direction is column, justify-content change to vertical)
+### Style apply for the container (flex container)
+
+#### justify-content: Align items horozontally (when flex-direction is column, justify-content change to vertical)
 Accept following values:
 - flex-start: items align to left side of container
 - flex-end: items align to right side of container
@@ -151,7 +153,7 @@ Accept following values:
 - space-between: Items display with equal spacing between them.
 - space-around: Items display with equal spacing around them.
 
-### align-items: Align items vertically (when flex-direction is column, align-item change to horizontal)
+#### align-items: Align items vertically (when flex-direction is column, align-item change to horizontal)
 Accept following values:
 - flex-start: Items align to the top of the container.
 - flex-end: Items align to the bottom of the container.
@@ -159,9 +161,38 @@ Accept following values:
 - baseline: Items display at the baseline of the container.
 - stretch: Items are stretched to fit the container.
 
-### flex-direction: define the direction items are placed in the container
+#### flex-direction: define the direction items are placed in the container
 Accept following values:
 - row: Items are placed the same as the text direction
 - row-reverse: Items are placed opposite tho the text direction
 - column: Items are placed top to bottom
 - column-reverse: Items are placed bottom to top
+
+### flex-wrap: define how items wrap or not
+Accept values:
+- nowrap: Every item is fit to a single line.
+- wrap: Items wrap around to additional lines.
+- wrap-reverse: Items wrap around to additional lines in reverse.
+
+### flex-flow: shorthand property using to combine flex-direction and flex-wrap
+
+### align-content: set how multiple lines are spaced apart from each other.
+Accept values:
+- flex-start: Lines are packed at the top of the container
+- flex-end: Lines are packed at the bottom of the container
+- center: Lines are packed at the vertical center of the container
+- space-between: Lines display with equal spacing between them
+- space-around: Lines display with equal spacing around them
+- stretch: Lines are stretched to fit the container
+
+**When there is only one line, align-content has no effect
+
+### Style apply for the items (flex items)
+
+#### order: Using to reorder item in flexbox
+Its value can be positive or negative. Default is 0 (current position)
+
+#### align-self: accept the same values as align-items and its value for the specific item.
+
+
+
