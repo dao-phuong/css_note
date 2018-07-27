@@ -158,3 +158,10 @@ Accept following values:
 - center: Items align at the vertical center of the container.
 - baseline: Items display at the baseline of the container.
 - stretch: Items are stretched to fit the container.
+
+### flex-direction: define the direction items are placed in the container
+Accept following values:
+- row: Items are placed the same as the text direction
+- row-reverse: Items are placed opposite tho the text direction
+- column: Items are placed top to bottom
+- column-reverse: Items are placed bottom to top
