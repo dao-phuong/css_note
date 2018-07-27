@@ -140,3 +140,13 @@ Let's see example below
 </html>
 ```
 So, the result we have will be: .a is 22.5px and .b is 30px
+
+## Flexbox
+
+### justify-content: Align items horozontally
+justify-content accept following values:
+- flex-start: items align to left side of container
+- flex-end: items align to right side of container
+- center: items align at the center of container
+- space-between: Items display with equal spacing between them.
+- space-around: Items display with equal spacing around them.
