@@ -218,9 +218,9 @@ Tertiary colors are the result of combining a primary color with one of its seco
 There are various methods of selecting different colors that result in a harmonious combination in design. One example that can use tertiary colors is called the split-complementary color scheme. This scheme starts with a base color, then pairs it with the two colors that are adjacent to its complement. The three colors provide strong visual contrast in a design, but are more subtle than using two complementary colors.
 
 Here are three colors created using the split-complement scheme:
-|Color|	Hex |Code|
-| ----------- | ----------- | ----------- |
 
+|Color|	Hex |
+| ----------- | ----------- | 
 |orange	|#FF7D00|
 |cyan	|#00FFFF|
-|raspberry	|#FF007D|
+|raspberry|#FF007D|
