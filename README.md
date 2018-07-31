@@ -199,7 +199,7 @@ Its value can be positive or negative. Default is 0 (current position)
 
 
 # Colors
-**Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content
+**Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content**
 The color wheel is a useful tool to visualize how colors relate to each other - it's a circle where similar hues are neighbors and different hues are farther apart. When two colors are opposite each other on the wheel, they are called complementary colors. They have the characteristic that if they are combined, they "cancel" each other out and create a gray color. However, when placed side-by-side, these colors appear more vibrant and produce a strong visual contrast.
 
 Link of color wheel tool: https://www.sessions.edu/color-calculator/
@@ -210,3 +210,17 @@ red (#FF0000) and cyan (#00FFFF)
 green (#00FF00) and magenta (#FF00FF)
 blue (#0000FF) and yellow (#FFFF00)
 ```
+
+Computer monitors and device screens create different colors by combining amounts of red, green, and blue light. This is known as the RGB additive color model in modern color theory. Red (R), green (G), and blue (B) are called primary colors. Mixing two primary colors creates the secondary colors cyan (G + B), magenta (R + B) and yellow (R + G). You saw these colors in the Complementary Colors challenge. These secondary colors happen to be the complement to the primary color not used in their creation, and are opposite to that primary color on the color wheel. For example, magenta is made with red and blue, and is the complement to green.
+
+Tertiary colors are the result of combining a primary color with one of its secondary color neighbors. For example, red (primary) and yellow (secondary) make orange. This adds six more colors to a simple color wheel for a total of twelve.
+
+There are various methods of selecting different colors that result in a harmonious combination in design. One example that can use tertiary colors is called the split-complementary color scheme. This scheme starts with a base color, then pairs it with the two colors that are adjacent to its complement. The three colors provide strong visual contrast in a design, but are more subtle than using two complementary colors.
+
+Here are three colors created using the split-complement scheme:
+|Color|	Hex |Code|
+| ----------- | ----------- | ----------- |
+
+|orange	|#FF7D00|
+|cyan	|#00FFFF|
+|raspberry	|#FF007D|
