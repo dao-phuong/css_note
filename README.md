@@ -185,7 +185,7 @@ Accept values:
 - space-around: Lines display with equal spacing around them
 - stretch: Lines are stretched to fit the container
 
-**When there is only one line, align-content has no effect
+**When there is only one line, align-content has no effect**
 
 ### Style apply for the items (flex items)
 
@@ -194,8 +194,9 @@ Its value can be positive or negative. Default is 0 (current position)
 
 #### align-self: accept the same values as align-items and its value for the specific item.
 
-
-
+## ::before and ::after
+These pseudo-elements are used to add something before or after a selected element. 
+For the ::before and ::after pseudo-elements to function properly, they must have a defined content property. This property is usually used to add things like a photo or text to the selected element. When the ::before and ::after pseudo-elements are used to make shapes, the content property is still required, but it's set to an empty string.
 
 
 # Colors
