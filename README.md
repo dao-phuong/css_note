@@ -219,7 +219,10 @@ The following CSS approaches will NOT do the same thing:
 - `display: none;` or `visibility: hidden;` hides content for everyone, including screen reader users
 - Zero values for pixel sizes, such as `width: 0px; height: 0px;` removes that element from the flow of your document, meaning screen readers will ignore it
 
+### Improve Readability with High Contrast Text
+Low contrast between the foreground and background colors can make text difficult to read. Sufficient contrast improves the readability of your content, but what exactly does "sufficient" mean?
 
+The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text. The ratio is calculated by comparing the relative luminance values of two colors. This ranges from 1:1 for the same color, or no contrast, to 21:1 for white against black, the strongest contrast. There are many contrast checking tools available online that calculate this ratio for you.
 
 
 # Colors
