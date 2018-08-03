@@ -246,6 +246,24 @@ Here's an example:
 ```
 <button accesskey="b">Important Button</button>
 ```
+
+### Use tabindex to Add Keyboard Focus to an Element
+The HTML `tabindex` attribute has three distinct functions relating to an element's keyboard focus. When it's on a tag, it indicates that element can be focused on. The value (an integer that's positive, negative, or zero) determines the behavior.
+
+Certain elements, such as links and form controls, automatically receive keyboard focus when a user tabs through a page. It's in the same order as the elements come in the HTML source markup. This same functionality can be given to other elements, such as `div`, `span`, and `p`, by placing a `tabindex="0"` attribute on them. Here's an example:
+
+```
+<div tabindex="0">I need keyboard focus!</div>
+```
+
+Note
+A negative `tabindex` value (typically -1) indicates that an element is focusable, but is not reachable by the keyboard. This method is generally used to bring focus to content programmatically (like when a `div` used for a pop-up window is activated).
+
+*Bonus - using `tabindex` to `p` also enables the CSS pseudo-class `:focus` to work on the `p` tag.*
+### Use tabindex to Specify the Order of Keyboard Focus for Several Elements
+
+
+
 # Colors
 **Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content**
 The color wheel is a useful tool to visualize how colors relate to each other - it's a circle where similar hues are neighbors and different hues are farther apart. When two colors are opposite each other on the wheel, they are called complementary colors. They have the characteristic that if they are combined, they "cancel" each other out and create a gray color. However, when placed side-by-side, these colors appear more vibrant and produce a strong visual contrast.
