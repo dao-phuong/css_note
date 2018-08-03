@@ -199,6 +199,29 @@ These pseudo-elements are used to add something before or after a selected eleme
 For the ::before and ::after pseudo-elements to function properly, they must have a defined content property. This property is usually used to add things like a photo or text to the selected element. When the ::before and ::after pseudo-elements are used to make shapes, the content property is still required, but it's set to an empty string.
 
 
+## Applied Accessibility
+CSS's magic can also improve accessibility on your page when you want to visually hide content meant only for screen readers. This happens when information is in a visual format (like a chart), but screen reader users need an alternative presentation (like a table) to access the data. CSS is used to position the screen reader-only elements off the visual area of the browser window.
+
+Here's an example of the CSS rules that accomplish this:
+```
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+```
+
+Note
+The following CSS approaches will NOT do the same thing:
+- `display: none;` or `visibility: hidden;` hides content for everyone, including screen reader users
+- Zero values for pixel sizes, such as `width: 0px; height: 0px;` removes that element from the flow of your document, meaning screen readers will ignore it
+
+
+
+
 # Colors
 **Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content**
 The color wheel is a useful tool to visualize how colors relate to each other - it's a circle where similar hues are neighbors and different hues are farther apart. When two colors are opposite each other on the wheel, they are called complementary colors. They have the characteristic that if they are combined, they "cancel" each other out and create a gray color. However, when placed side-by-side, these colors appear more vibrant and produce a strong visual contrast.
