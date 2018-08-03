@@ -237,6 +237,15 @@ Screen reader users have different options for what type of content their device
 
 Screen readers do this by reading the link text, or what's between the anchor (a) tags. Having a list of "click here" or "read more" links isn't helpful. Instead, you should use brief but descriptive text within the a tags to provide more meaning for these users.
 
+### Make Links Navigatable with HTML Access Keys
+HTML offers the `accesskey` attribute to specify a shortcut key to activate or bring focus to an element. This can make navigation more efficient for keyboard-only users
+
+HTML5 allows this attribute to be used on any element, but it's particularly useful when it's used with interactive ones. This includes links, buttons, and form controls.
+
+Here's an example:
+```
+<button accesskey="b">Important Button</button>
+```
 # Colors
 **Using different combinations of colors can really change the look of a website, and a lot of thought can go into picking a color palette that works with your content**
 The color wheel is a useful tool to visualize how colors relate to each other - it's a circle where similar hues are neighbors and different hues are farther apart. When two colors are opposite each other on the wheel, they are called complementary colors. They have the characteristic that if they are combined, they "cancel" each other out and create a gray color. However, when placed side-by-side, these colors appear more vibrant and produce a strong visual contrast.
