@@ -194,6 +194,12 @@ Its value can be positive or negative. Default is 0 (current position)
 
 #### align-self: accept the same values as align-items and its value for the specific item.
 
+#### flex-shrink: allows an item to shrink if the flex container is too small.
+Items shrink when the width of the parent container is smaller than the combined widths of all the flex items within it.
+
+The `flex-shrink` property takes numbers as values. The higher the number, the more it will shrink compared to the other items in the container. For example, if one item has a `flex-shrink` value of 1 and the other has a `flex-shrink` value of 3, the one with the value of 3 will shrink three times as much as the other.
+
+
 ## ::before and ::after
 These pseudo-elements are used to add something before or after a selected element. 
 For the ::before and ::after pseudo-elements to function properly, they must have a defined content property. This property is usually used to add things like a photo or text to the selected element. When the ::before and ::after pseudo-elements are used to make shapes, the content property is still required, but it's set to an empty string.
